@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Селектор по тегу или по типу */
+p {
+  color: blue;
+}
+
+/* Селектор по классу */
+.special {
+  color: orange;
+}
+
+/* Селектор по ID */
+#title {
+  color: lime;
+}
+
+/* Селектор потомка */
+.header .logo span {
+  font-size: 45px;
+}
+
+/* Селектор дочерних элементов */
+header > a {
+  color: brown;
+}
+
+/* Селектор соседних элементов */
+header + p {
+  color: aqua;
+}
+
+header ~ p {
+  color: green;
+}
+
+/* Селектор по атрибуту */
+a[href="https://google.com"]
+{
+}
+
+/* Псевдоклассы селекторы */
+a:hover {
+  font-size: 35px;
+}
+
+a:focus {
+  font-size: 35px;
+}
+
+a:active {
+  color: yellow;
+}
+
+li:first-child {
+  background-color: green;
+}
+
+li:last-child {
+  background-color: green;
+}
+
+li:nth-child(even) {
+  background: blue;
+}
+
+/* Псевдоэлементы */
+h1::before {
+  content: "*";
+}
+
+h1::after {
+  content: "*";
+}
+
+p::first-letter {
+  font-size: 2em;
+}
+
+/* Группирующий селектор */
+
+h1,
+h2,
+h3 {
+  font-family: "Arial", sans-serif;
+}
+
+h2.special {
+}
