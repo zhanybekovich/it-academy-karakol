@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Sora";
+  src: url("../fonts/Sora-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Sora-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sora";
+  src: url("../fonts/Sora-Bold.woff2") format("woff2"),
+    url("../fonts/Sora-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sora";
+  src: url("../fonts/Sora-SemiBold.woff2") format("woff2"),
+    url("../fonts/Sora-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sora";
+  src: url("../fonts/Sora-Regular.woff2") format("woff2"),
+    url("../fonts/Sora-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Sora", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.header-menu-link {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  line-height: 24px;
+  letter-spacing: -2%;
+}
