@@ -1,0 +1,285 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 32px;
+  background-color: #69b99d;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #f9f9f9;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #767676;
+}
+
+.header {
+  padding-top: 23px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e4e4e4;
+  background-color: #f9f9f9;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  /* gap: 28px; */
+}
+
+/* .header-menu-item {
+  margin-right: 28px;
+}
+
+.header-menu-item:last-child {
+  margin-right: 0;
+} */
+
+.header-menu-item + .header-menu-item {
+  margin-left: 28px;
+}
+
+.header-menu-link {
+  font-size: 16px;
+  color: #0f241d;
+  text-decoration: none;
+}
+
+.header-menu-link--active {
+  position: relative;
+  font-weight: 700;
+  color: #69b99d;
+}
+
+.header-menu-link--active::after {
+  content: "";
+  height: 2px;
+  width: 50px;
+  background-color: #69b99d;
+  position: absolute;
+  bottom: -30px;
+  width: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero {
+  padding-top: 125px;
+  padding-bottom: 170px;
+  border-bottom: 1px solid #69b99d;
+}
+
+.hero-container {
+  display: flex;
+  gap: 30px;
+}
+
+.hero-left {
+  width: 50%;
+}
+
+.hero-title {
+  /* margin: 0 0 12px 0; */
+  margin: 0;
+  margin-bottom: 12px;
+  padding-right: 166px;
+  font-size: 36px;
+  color: #0f241d;
+  font-weight: 700;
+}
+
+.hero-desc {
+  margin: 0 0 12px 0;
+  padding-right: 190px;
+  font-size: 18px;
+  color: #767676;
+}
+
+.hero-right {
+  position: relative;
+  width: 50%;
+  height: 375px;
+}
+
+.hero-right::after {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: #ccf4e6;
+  z-index: -1;
+  border-radius: 4px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 375px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.hello {
+  margin: 0 auto;
+  margin-bottom: 200px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about {
+  padding-top: 195px;
+  padding-bottom: 160px;
+  border-bottom: 1px solid #69b99d;
+}
+
+.about-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.about-left {
+  width: 40%;
+  height: 412px;
+  object-fit: cover;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.about-img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-right {
+  width: 60%;
+  padding-left: 30px;
+}
+
+.about-title {
+  margin: 0 0 12px 0;
+  color: #0f241d;
+  font-size: 36px;
+}
+
+.about-right p {
+  margin: 0 0 24px 0;
+  color: #767676;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.services {
+  padding: 160px 0;
+  background-color: #f9f9f9;
+}
+
+.services-top {
+  width: 50%;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+.services-title {
+  color: #0f241d;
+  font-size: 36px;
+  margin: 0 0 12px 0;
+}
+
+.services-subtitle {
+  color: #0f241d;
+  font-size: 18px;
+  margin: 0;
+}
+
+.services-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+
+.services-item {
+  position: relative;
+  padding: 160px 55px 33px 55px;
+  border-bottom: 4px solid #69b99d;
+  box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.services-item::before {
+  position: absolute;
+  top: 58px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-image: url("../images/service-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services-item-cut::before {
+  background-image: url("../images/service-icon-cut.svg");
+}
+
+.services-item-care::before {
+  background-image: url("../images/service-icon-care.svg");
+}
+
+.services-item-title {
+  color: #0f241d;
+  font-size: 24px;
+  margin: 0 0 12px 0;
+}
+
+.services-item-txt {
+  color: #767676;
+  font-size: 16px;
+  margin: 0;
+}
