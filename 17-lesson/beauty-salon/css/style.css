@@ -536,6 +536,7 @@ h6 {
   right: 0;
   padding: 30px 25px;
   background-color: white;
+  z-index: 100;
 }
 
 .header-nav--active .header-menu {
