@@ -535,7 +535,6 @@ h6 {
   left: 0;
   right: 0;
   padding: 30px 25px;
-  width: 90%;
   background-color: white;
 }
 
@@ -603,5 +602,31 @@ h6 {
 
   .header-menu-togler {
     display: block;
+  }
+
+  .hero-container {
+    flex-wrap: wrap;
+  }
+
+  .hero-left,
+  .hero-right {
+    width: 100%;
+  }
+
+  .hero-right {
+    order: -1;
+    margin-bottom: 18px;
+  }
+
+  .hero-left {
+    text-align: center;
+  }
+
+  .hero-title {
+    padding-right: 0;
+  }
+
+  .hero-desc {
+    padding-right: 0;
   }
 }
