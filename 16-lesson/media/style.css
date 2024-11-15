@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: yellow;
+}
+
+@media (min-width: 320px) {
+  body {
+    background-color: green;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+
+  p {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  p {
+    display: none;
+  }
+}
+
+/* @media (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    background-color: blue;
+  }
+} */
