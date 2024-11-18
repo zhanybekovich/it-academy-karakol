@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BeautySalon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a href="#" class="header-logo-link">
+          <img
+            src="images/logo.svg"
+            alt="Beauty Salon"
+            class="header-logo-img"
+          />
+        </a>
+
+        <nav class="header-nav">
+          <ul class="header-menu">
+            <li class="header-menu-item">
+              <a href="#" class="header-menu-link">Главная</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#" class="header-menu-link header-menu-link--active"
+                >О нас</a
+              >
+            </li>
+            <li class="header-menu-item">
+              <a href="#" class="header-menu-link">Услуги</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#" class="header-menu-link">Отзывы</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#" class="header-menu-link">Друзья</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#" class="header-menu-link">Контакты</a>
+            </li>
+          </ul>
+
+          <button class="header-menu-close">
+            <img src="images/close-btn.svg" alt="Закрыть меню" />
+          </button>
+        </nav>
+
+        <button class="header-menu-togler">
+          <img src="images/menu-toggle.svg" alt="Кнопка меню" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-left">
+            <h1 class="hero-title">Натуральное здоровье для ваших волос</h1>
+            <p class="hero-desc">
+              Эксклюзивный салон в Сан-Паулу, специализирующийся на натуральных
+              процедурах.
+            </p>
+            <a href="#" class="btn hero-btn">Записаться</a>
+          </div>
+          <div class="hero-right">
+            <img
+              src="https://images.unsplash.com/photo-1675599193990-33d71150902b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Beauty Salon"
+              class="hero-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container about-container">
+          <div class="about-left">
+            <img
+              src="https://images.unsplash.com/photo-1728743264694-4ac39fa29385?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="About"
+              class="about-img"
+            />
+          </div>
+          <div class="about-right">
+            <h2 class="about-title">О нас</h2>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse sagittis arcu quis nisi luctus, id accumsan felis
+              tristique. Proin quis bibendum diam. Sed consequat nisl laoreet
+              eros ultricies pellentesque. Nullam in est porta, pellentesque
+              massa vitae, vehicula risus.
+            </p>
+
+            <p>
+              In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut
+              pretium urna turpis eu dui. Vestibulum id ullamcorper nibh. Donec
+              luctus, nunc finibus elementum suscipit, tortor augue vulputate
+              sapien, vitae feugiat enim augue sed. Quisque id aliquam elit.
+              Suspendisse congue pharetra maximus.
+            </p>
+
+            <p>
+              Duis rutrum velit a leo euismod dictum. Sed sodales est efficitur
+              arcu tincidunt tincidunt. Curabitur fringilla, risus at feugiat
+              feugiat, nisl nulla tincidunt tellus, elementum elementum lorem
+              nisl eleifend dolor. Nullam eget dui at sem ullamcorper luctus.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+          <div class="services-top">
+            <h2 class="services-title">Услуги</h2>
+            <p class="services-subtitle">
+              Салон красоты работает более 10 лет на рынке и уже завоевал
+              клиентов из бесчисленных стран своими эксклюзивными и полностью
+              натуральными процедурами.
+            </p>
+          </div>
+          <ul class="services-list">
+            <li class="services-item">
+              <h3 class="services-item-title">Терапия для волос</h3>
+              <p class="services-item-txt">
+                Комплексная терапия для кожи головы и волос, защищающая все типы
+                волос, включая длинные и тонкие.
+              </p>
+            </li>
+            <li class="services-item services-item-cut">
+              <h3 class="services-item-title">Стрижка</h3>
+              <p class="services-item-txt">
+                В нашей команде работают известные профессионалы, известные тем,
+                что задают тенденции в различных и классических фасонах.
+              </p>
+            </li>
+            <li class="services-item services-item-care">
+              <h3 class="services-item-title">Лечение</h3>
+              <p class="services-item-txt">
+                В салоне красоты есть несколько натуральных и полностью
+                веганских процедур для любого типа волос.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <h2 class="reviews-title">Отзывы наших клиентов</h2>
+
+        <div class="container reviews-container">
+          <div class="reviews-item">
+            <blockquote>
+              <p>
+                Eu sou cliente do Beautysalon há 5 anos e não troco por nada!
+                Certamente meu cabelo mudou muito depois que comecei a tratar
+                somente com produtos naturais e veganos. São profissionais
+                incríveis e qualificados.
+              </p>
+            </blockquote>
+            <div class="reviews-item-credentials">
+              <img src="images/review-1.jpg" alt="" class="reviews-item-img" />
+              <span class="reviews-item-author">Wanessa Souza</span>
+            </div>
+          </div>
+          <div class="reviews-item">
+            <blockquote>
+              <p>
+                Minha mãe frequenta o salão há anos e me levou um dia para
+                conhecer. Minha experiência foi incrível, eu continuo fazendo o
+                a terapia capilar e isso salvou o meu cabelo. Adoro todos os
+                profissionais do Beautysalon.
+              </p>
+            </blockquote>
+            <div class="reviews-item-credentials">
+              <img src="images/review-2.jpg" alt="" class="reviews-item-img" />
+              <span class="reviews-item-author">Luna Falcão</span>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <ul class="reviews-slider-btns">
+            <li class="reviews-slider-btns-item">
+              <button
+                type="button"
+                class="reviews-slider-btn reviews-slider-btn-active"
+              >
+                <span class="sr-only">1</span>
+              </button>
+            </li>
+            <li class="reviews-slider-btns-item">
+              <button type="button" class="reviews-slider-btn">
+                <span class="sr-only">2</span>
+              </button>
+            </li>
+            <li class="reviews-slider-btns-item">
+              <button type="button" class="reviews-slider-btn">
+                <span class="sr-only">3</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <div class="container contacts-container">
+          <div class="contacts-col contacts-left">
+            <h2 class="contacts-title">Наши контакты</h2>
+            <p class="contacts-text">
+              Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a href="#" class="btn contacts-btn">Записаться</a>
+          </div>
+          <div class="contacts-col contacts-right">
+            <p class="contacts-details">
+              <a href="tel:11998456754" class="contacts-icon">11 99845-6754</a>
+              <span class="contacts-icon contacts-adress"
+                >R. Amauri Souza, 346</span
+              >
+              <a
+                href="mailto:contato@beautysalon.com"
+                class="contacts-icon contacts-email"
+                >contato@beautysalon.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-left">
+          <img
+            src="images/footer-logo.svg"
+            alt="Beaty Salon"
+            class="footer-logo"
+          />
+          <p>
+            <span>&copy; 2021 Beautysalon.</span>
+            <span>Все права защищены</span>
+          </p>
+        </div>
+
+        <div class="footer-right">
+          <ul class="socials">
+            <li class="socials-item">
+              <a href="#" class="socials-item-link">
+                <img
+                  src="images/instagram.png"
+                  alt="Наш инстаграм аккаунт"
+                  class="socials-item-img"
+                />
+              </a>
+            </li>
+            <li class="socials-item">
+              <a href="#" class="socials-item-link">
+                <img
+                  src="images/fb.png"
+                  alt="Наш фейсбук аккаунт"
+                  class="socials-item-img"
+                />
+              </a>
+            </li>
+            <li class="socials-item">
+              <a href="#" class="socials-item-link">
+                <img
+                  src="images/yt.png"
+                  alt="Наш Youtube аккаунт"
+                  class="socials-item-img"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
